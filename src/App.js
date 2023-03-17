@@ -40,7 +40,7 @@ function App() {
   return (
     <div className="App">
       {
-        success ? <Success count={invites.length}/> : <Users onChangeSearchValue={onChangeSearchValue} searchValue={searchValue} items={users} isLoading={isLoading} invites={invites} onClickInvite={onClickInvite} onClickSendInvites={onClickSendInvites} />
+        success ? <Success count={invites.length} /> : <Users onChangeSearchValue={onChangeSearchValue} searchValue={searchValue} items={users} isLoading={isLoading} invites={invites} onClickInvite={onClickInvite} onClickSendInvites={onClickSendInvites} />
       }
 
     </div>
